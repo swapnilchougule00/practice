@@ -15,7 +15,7 @@ export const Index = () => {
     } catch (err) {
       response = [];
     }
-    return response.recipes;
+    return response;
   };
 
   return (

@@ -1,13 +1,13 @@
-// import { Index } from "./auto-complete";
+/* eslint-disable no-unused-vars */
+import { Index } from "./auto-complete/Index";
 import FolderIndex from "./folder-recursion/FolderIndex";
-import StopWatch from "./timer/StopWatch";
 
 export default function App() {
   return (
     <div className="p-10">
-      {/* <Index /> */}
+      <Index />
       {/* <FolderIndex /> */}
-      <StopWatch />
+      {/* <StopWatch /> */}
     </div>
   );
 }
