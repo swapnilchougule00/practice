@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
-import { Index } from "./auto-complete/Index";
 import FolderIndex from "./folder-recursion/FolderIndex";
+import Index from "./toast/Index";
 
 export default function App() {
   return (

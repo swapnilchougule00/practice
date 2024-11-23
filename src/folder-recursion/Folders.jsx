@@ -5,7 +5,7 @@ import { useState } from "react";
 
 const Folders = ({ files }) => {
   const [isOpened, setIsOpened] = useState(false);
-  console.log(files);
+
   if (files.isFolder) {
     return (
       <>
